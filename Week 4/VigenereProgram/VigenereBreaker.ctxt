@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=VigenereBreaker
+comment1.params=message\ whichSlice\ totalSlices
+comment1.target=java.lang.String\ sliceString(java.lang.String,\ int,\ int)
+comment2.params=encrypted\ klength\ mostCommon
+comment2.target=int[]\ tryKeyLength(java.lang.String,\ int,\ char)
+comment3.params=fr
+comment3.target=java.util.HashSet\ readDictionary(edu.duke.FileResource)
+comment3.text=\r\n\ \ \ \ public\ void\ breakVigenere\ ()\ {\r\n\ \ \ \ \ \ \ \ //create\ a\ new\ FileResource\ using\ its\ default\ constructor\r\n\ \ \ \ \ \ \ \ //FileResource\ fr\ \=\ new\ FileResource();\r\n\ \ \ \ \ \ \ \ FileResource\ fr\ \=\ new\ FileResource("secretmessage1.txt");\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ //use\ the\ AsString\ method\ to\ read\ the\ entire\ contents\ of\ the\ file\ into\ a\ String\r\n\ \ \ \ \ \ \ \ String\ encrypted\ \=\ fr.asString();\r\n\ \ \ \ \ \ \ \ //String\ encrypted\ \=\ "Hhdiu\ LVXNEW\ uxh\ WKWVCEW,\ krg\ k\ wbbsqa\ si\ Mmwcjiqm";\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ //use\ the\ tryKeyLength\ method\ to\ find\ the\ key\ for\ the\ message\ you\ read\ in\ (pass\ 'e'\ for\ mostCommon)\r\n\ \ \ \ \ \ \ \ //int[]\ key\ \=\ tryKeyLength(encrypted,\ 5,\ 'e');\r\n\ \ \ \ \ \ \ \ int[]\ key\ \=\ tryKeyLength(encrypted,\ 4,\ 'e');\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ //create\ a\ new\ VigenereCipher,\ passing\ in\ the\ key\ that\ tryKeyLength\ found\r\n\ \ \ \ \ \ \ \ VigenereCipher\ vc\ \=\ new\ VigenereCipher(key);\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ //use\ the\ VigenereCipher's\ decrypt\ method\ to\ decrypt\ the\ encrypted\ message\r\n\ \ \ \ \ \ \ \ String\ decrypted\ \=\ vc.decrypt(encrypted);\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ //finally,\ print\ out\ the\ decrypted\ message\r\n\ \ \ \ \ \ \ \ System.out.println(decrypted);\r\n\ \ \ \ }\r\n
+comment4.params=message\ dictionary
+comment4.target=int\ countWords(java.lang.String,\ java.util.HashSet)
+comment5.params=encrypted\ dictionary
+comment5.target=java.lang.String\ breakForLanguage(java.lang.String,\ java.util.HashSet)
+comment6.params=
+comment6.target=void\ breakVigenere()
+comment7.params=dictionary
+comment7.target=char\ mostCommonCharIn(java.util.HashSet)
+comment8.params=encrypted\ languages
+comment8.target=java.lang.String\ breakForAllLangs(java.lang.String,\ java.util.HashMap)
+comment9.params=
+comment9.target=void\ test()
+numComments=10
