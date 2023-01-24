@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Assignment1
+comment1.params=input\ key
+comment1.target=java.lang.String\ encrypt(java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ testCaesar()
+comment3.params=ch
+comment3.target=boolean\ isVowel(char)
+comment4.params=
+comment4.target=void\ testIsVowel()
+comment5.params=phrase\ ch
+comment5.target=java.lang.String\ replaceVowels(java.lang.String,\ char)
+comment6.params=
+comment6.target=void\ testReplaceVowels()
+comment7.params=phrase\ ch
+comment7.target=java.lang.String\ emphasize(java.lang.String,\ char)
+comment8.params=
+comment8.target=void\ testEmphasize()
+numComments=9

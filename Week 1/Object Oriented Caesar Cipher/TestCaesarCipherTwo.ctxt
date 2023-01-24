@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=TestCaesarCipherTwo
+comment1.params=message\ start
+comment1.target=java.lang.String\ halfOfString(java.lang.String,\ int)
+comment2.params=s\ counts
+comment2.target=void\ countLetters(java.lang.String,\ int[])
+comment3.params=values
+comment3.target=int\ maxIndex(int[])
+comment4.params=
+comment4.target=void\ simpleTests()
+comment5.params=
+comment5.target=void\ test()
+comment6.params=s
+comment6.target=int\ getKey(java.lang.String)
+comment7.params=input
+comment7.target=void\ breakCaesarCipherTwo(java.lang.String)
+numComments=8
